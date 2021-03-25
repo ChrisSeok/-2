@@ -1,5 +1,11 @@
-#2번, B835193 석채원
-x=int(input("첫번째 정수:"))
-y=int(input("두번째 정수:"))
-print(x+y,'\n',x-y,'\n',x*y,sep="")
-print(round((x+y)/2),'\n',max(x,y),'\n',min(x,y),sep="")
+# 2번  C111152 Jong Uk Lim
+
+A = int(input("첫번째 정수:"))
+B = int(input("두번째 정수:"))
+
+print(A+B)
+print(A-B)
+print(A*B)
+print((A+B)/2)
+print(max(A,B))
+print(min(A,B))

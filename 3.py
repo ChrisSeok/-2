@@ -1,3 +1,5 @@
-#3번, B835193 석채원
-x = int(input("인치="))
-print(x,"인치는 ",x*2.54,"cm")
+# 3번 C111152 Jong Uk Lim
+
+INCH = int(input("인치= "))
+CM= INCH*2.54
+print(INCH,' 인치는 ',CM, 'cm')
