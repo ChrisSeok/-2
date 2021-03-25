@@ -1,9 +1,6 @@
-# 5번 C111152 Jong Uk Lim
-
-INT = int(input('정수 = '))
-
-F = INT//100
-M = INT%100//10
-E = INT%100%10
-
-print(F+M+E) 
+#5번, B835193 석채원
+x = int(input("정수 = "))
+a = int(x/100)
+b = int((x%100)/10)
+c = int(x%10)
+print(a+b+c)
